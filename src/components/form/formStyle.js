@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 import { Field, Form } from 'formik';
 
-export const ErrorText = styled.p`
-    color: red;
-    font-size: 12px;
-`;
-
 // Стили для формы
 export const StyledForm = styled(Form)`
     display: flex;

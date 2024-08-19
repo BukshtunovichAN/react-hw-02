@@ -1,8 +1,14 @@
 import React from 'react';
 import {Formik, ErrorMessage } from 'formik';
 import * as yup from 'yup'
-import {StyledForm, StyledField, StyledLabel, SubmitButton, ErrorText} from './formStyle'
+import { StyledForm, StyledField, StyledLabel, SubmitButton } from './formStyle'
+import styled from 'styled-components';
 
+
+const ErrorText = styled.p`
+    color: red;
+    font-size: 12px;
+`;
 
 const ContactForm = ({ onSubmit }) => {
   ;
