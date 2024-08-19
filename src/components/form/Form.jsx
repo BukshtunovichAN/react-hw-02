@@ -1,7 +1,7 @@
 import React from 'react';
 import {Formik, ErrorMessage } from 'formik';
 import * as yup from 'yup'
-import {StyledForm, StyledField, StyledLabel, SubmitButton} from './formStyle'
+import {StyledForm, StyledField, StyledLabel, SubmitButton, ErrorText} from './formStyle'
 
 
 const ContactForm = ({ onSubmit }) => {
